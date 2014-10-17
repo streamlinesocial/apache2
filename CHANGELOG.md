@@ -7,6 +7,9 @@ v1.8.4
 ### Bug
 - **[COOK-3769](https://tickets.opscode.com/browse/COOK-3769)** - Fix a critical bug where the `apache_module` could not enable modules
 
+### Security
+- Disable SSLv3 per [POODLE](https://access.redhat.com/articles/1232123)
+
 
 v1.8.2
 ------
